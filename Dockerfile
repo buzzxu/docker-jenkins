@@ -9,9 +9,6 @@ RUN apt-get update \
 	gfortran \
 	less \
 	locales \
-	ca-certificates \
-	curl \
-	default-jdk \
 	libbz2-dev \
 	libcairo2-dev \
 	libcurl4-openssl-dev \
@@ -24,7 +21,6 @@ RUN apt-get update \
 	libx11-dev \
 	libxt-dev \
 	lmodern \
-	subversion \
 	tcl8.6-dev \
 	texinfo \
 	texlive-base \
@@ -33,7 +29,6 @@ RUN apt-get update \
 	texlive-latex-base \
 	texlive-latex-recommended \
 	tk8.6-dev \
-	x11proto-core-dev \
 	&& rm -rf /var/lib/apt/lists/*
 
 USER jenkins
